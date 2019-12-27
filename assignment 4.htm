@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+First Name:<input type="text" name="firstname" placeholder="John" required>Last Name:<input type="text" name="lastname" placeholder="Smith" required><br>
+<div>
+<label for="male">Male</label>
+<input id="male" name="gender" type="radio" value="male">
+<label for="female">Female</label>
+<input id="female" name="gender" type="radio" value="female">
+<label for="other">Other</label>
+</div>
+<input name="gender" type="radio" value="other">
+Email:<input type="email" name="emailaddress" placeholder="your email" required> Password:<input type="password" name="pwd" placeholder="your password" title="Password must be between 5 and 10 characters" required ><br>
+Birthday:<select>
+<option value="Month">Month</option>
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+<select>
+<option>Day</option>
+<option>Monday</option>
+<option>Tuesday</option>
+<option>Wednesday</option>
+<option>Thursday</option>
+<option>Friday</option>
+<option>Saturday</option>
+<option>Sunday</option>
+</select>
+<select>
+<option>Year</option>
+<option>1995</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+</select><br>
+<input type="checkbox" name="pledge" value="terms and conditions">I agree to the terms and conditions<br>
+<input type="submit" value="submit">
+</form>
+</Body>
+</html>
