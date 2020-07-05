@@ -20,3 +20,4 @@ How to make a clean pull request
 ...
 15. Once the pull request is approved and merged you can pull the changes from upstream to your local repo and delete your extra branch(es).
 16. And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
+Thank You!!!
