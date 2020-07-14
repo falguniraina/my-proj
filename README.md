@@ -17,7 +17,7 @@ How to make a clean pull request
 12. Squash your commits into a single commit with git's interactive rebase. Create a new branch if necessary.
 13. Push your branch to your fork on Github, the remote origin.
 
-14.From your fork open a pull request in the correct branch. Target the project's develop branch if there is one, else go for master!
+14. From your fork open a pull request in the correct branch. Target the project's develop branch if there is one, else go for master!
 
 
 15. Once the pull request is approved and merged you can pull the changes from upstream to your local repo and delete your extra branch(es).
